@@ -9,7 +9,8 @@ Object Definitions (CIODs) and Module Attributes from DocBook XML representation
 # Status
 
 Parse output on the 2019d version of the standard:
-```
+```bash
+$ python dcmdocbook2json.py DocBookDICOM2019d_release_docbook_20190922212826/source/docboo DICOM_2019d_JSON_output
 Parsing part 3
 Parsing of part 3 done
 DICOM standard version: DICOM PS3.3 2019d - Information Object Definitions
